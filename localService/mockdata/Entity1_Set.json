@@ -1,0 +1,81 @@
+[{
+	"Id": "Group 1",
+	"field1": "my_name@example.com",
+	"field2": "example.com",
+	"__metadata": {
+		"uri": "Entity1_Set('Group 1')",
+		"type": "Demo.Entity1"
+	}
+}, {
+	"Id": "Group 2",
+	"field1": "my_name@example.com",
+	"field2": "example.com",
+	"__metadata": {
+		"uri": "Entity1_Set('Group 2')",
+		"type": "Demo.Entity1"
+	}
+}, {
+	"Id": "Group 3",
+	"field1": "my_name@example.com",
+	"field2": "example.com",
+	"__metadata": {
+		"uri": "Entity1_Set('Group 3')",
+		"type": "Demo.Entity1"
+	}
+}, {
+	"Id": "Group 4",
+	"field1": "my_name@example.com",
+	"field2": "example.com",
+	"__metadata": {
+		"uri": "Entity1_Set('Group 4')",
+		"type": "Demo.Entity1"
+	}
+}, {
+	"Id": "Group 5",
+	"field1": "my_name@example.com",
+	"field2": "example.com",
+	"__metadata": {
+		"uri": "Entity1_Set('Group 5')",
+		"type": "Demo.Entity1"
+	}
+}, {
+	"Id": "Group 6",
+	"field1": "my_name@example.com",
+	"field2": "example.com",
+	"__metadata": {
+		"uri": "Entity1_Set('Group 6')",
+		"type": "Demo.Entity1"
+	}
+}, {
+	"Id": "Group 7",
+	"field1": "my_name@example.com",
+	"field2": "example.com",
+	"__metadata": {
+		"uri": "Entity1_Set('Group 7')",
+		"type": "Demo.Entity1"
+	}
+}, {
+	"Id": "Group 8",
+	"field1": "my_name@example.com",
+	"field2": "example.com",
+	"__metadata": {
+		"uri": "Entity1_Set('Group 8')",
+		"type": "Demo.Entity1"
+	}
+}, {
+	"Id": "Group 9",
+	"field1": "my_name@example.com",
+	"field2": "example.com",
+	"__metadata": {
+		"uri": "Entity1_Set('Group 9')",
+		"type": "Demo.Entity1"
+	}
+}, {
+	"Id": "Group 10",
+	"field1": "my_name@example.com",
+	"field2": "example.com",
+	"__metadata": {
+		"uri": "Entity1_Set('Group 10')",
+		"type": "Demo.Entity1"
+	}
+}]

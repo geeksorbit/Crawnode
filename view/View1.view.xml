@@ -1,0 +1,70 @@
+<mvc:View xmlns:html="http://www.w3.org/1999/xhtml" xmlns:mvc="sap.ui.core.mvc" xmlns="sap.m" xmlns:c="sap.ui.core" controllerName="CrawlEmail.controller.View1">
+	<App>
+		<pages>
+			<Page title="Crawling Websites and Sending Emails If any Changes is Found">
+				<content>
+					<VBox direction="Column" id="vbox0" justifyContent="Center" width="100%">
+						<items>
+							<Label text=" " width="100%" id="__label3"/>
+							<Label text=" " width="100%" id="__label4"/>
+							<HBox width="100%" id="__hbox0" alignContent="SpaceBetween" alignItems="Center" backgroundDesign="Translucent" justifyContent="SpaceAround">
+								<items>
+									<Label text="Website Group Name" width="100%" id="__label1"/>
+									<Input width="100%" id="__input1" name="websitegroupname" placeholder="My Website Group Name" tooltip="Enter Website Group Name"/>
+									<Label text="Email ID" width="100%" id="__label0"/>
+									<Input width="100%" id="__input0" placeholder="my_email_id@example.com" name="emailid" tooltip="Enter Email Id"/>
+									<Label text="Website Addresses" width="100%" id="__label2"/>
+									<Input width="100%" id="__input2" placeholder="web1.com, web2.com, web3.com..." name="websiteaddress"/>
+								</items>
+							</HBox>
+							<HBox width="100%" id="__hbox1" alignItems="End" alignContent="Center" backgroundDesign="Translucent" justifyContent="SpaceAround">
+								<items>
+									<Button xmlns="sap.m" text="Save" width="100px" id="__button0"/>
+								</items>
+							</HBox>
+						</items>
+					</VBox>
+					<VBox width="100%" direction="Column" id="__vbox0">
+						<items>
+							<Label id="label3" text=" " textAlign="Center" width="100%"/>
+							<Toolbar xmlns="sap.m">
+								<Title id="title" text="Crawling List"/>
+								<ToolbarSpacer/>
+								<Button text="Delete" width="100px" id="__button1" activeIcon="sap-icon://delete" icon="sap-icon://delete" iconFirst="false"/>
+							<content/>
+							</Toolbar>
+						</items>
+					</VBox>
+					<Table id="table0" items="{/Entity1_Set}" selectionMode="MultiToggle" noDataText="Drop column list items here and columns in the area above" growing="true" growingDirection="Upwards" includeItemInSelection="true" mode="MultiSelect">
+						<items>
+							<ColumnListItem counter="0" id="item1">
+								<cells>
+									<Text id="text5" maxLines="0" text="{Id}"/>
+									<Text id="text6" maxLines="0" text="{field1}"/>
+									<Text id="text7" maxLines="0" text="{field2}"/>
+								</cells>
+							</ColumnListItem>
+						</items>
+						<columns>
+							<Column id="column0">
+								<header>
+									<Label id="label0" text="Website Group Name"/>
+								</header>
+							</Column>
+							<Column id="column1">
+								<header>
+									<Label id="label1" text="Email ID"/>
+								</header>
+							</Column>
+							<Column id="column2">
+								<header>
+									<Label id="label2" text="Website Addresses"/>
+								</header>
+							</Column>
+						</columns>
+					</Table>
+				</content>
+			</Page>
+		</pages>
+	</App>
+</mvc:View>
